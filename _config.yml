@@ -1,28 +1,54 @@
-# Site specific settings
-title: "Title to this website"
-name: "Website name"
-keywords: "Key, words, about, this, website"
-baseurl: "/darcli"
-url: "http://website.com"
-description: "Website description"
-cover: "/assets/img/cover.svg"
-fanpage_id: ""
+baseurl: "" # The subpath of your site. Use "" if you're hosting a 'blog' at the root level.
+url: "username.github.io" # the base hostname & protocol for your site.
 
-# Site general settings
-lang: "en"
-lang_alternate: "pt_BR"
-ssl: false # It will redirect to https
+paginate: 6 #articles per page
+paginate_path: /blog/page:num #makes pagination working
 
-# Media
-# Just the shortname:
-# facebook: lampiaosec # Rigth
-# facebook: facebook.com/lampiaosec # Wrong
-disqus: test
-twitter: 
-facebook: 
-github: 
+# header text
+title: Atemporal
+header: Game developed at game jam 2020
+
+
+# for welcome page
+# to replace image go to index.html
+email:
+  address: "atemporal.ggj@gmail.com"
+  text: "atemporal.ggj@gmail.com"
+
+# disqus comment
+disqus:
+    shortname: "test" #your disqus comment short name
+
+# google analytics
 google:
+    tracking-id: "" #your tracking id here
 
-# Build settings
-markdown: kramdown
-permalink: /:categories/:title/
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: /posts/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

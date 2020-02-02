@@ -1,34 +1,22 @@
-# Darcli
+# Autm-rb
 
-## Demo
+Another theme for jekyll.
 
-You can see this theme on [gjuniioor.github.io/darcli](https://gjuniioor.github.io/darcli)
+## [DEMO][demo]
 
-## Screenshot
+## Customization
 
-![Screenshot of the them](assets/img/screenshot.png)
+Edit **_config.yml** and files inside **_data/** before using
 
-## Why the name?
+## Screens
 
-It's just a joke: `dark + cli`.
+![](screenshots/home.png)
+![](screenshots/post.png)
 
-## Features
+## Licensing
 
-* Categories
-* Disqus comments
-* SEO
-	* Description
-	* Keywords
-	* Open Cards to twitter, facebook, linkedin, google+ and others
-* Code post (but no highligth :] )
-* Atom **AND** RSS feeds
+[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE)
 
-## Warnings
-
-This is a theme intended to use to [lampiaosec website](https://lampiaosec.github.io) and after was converted to a general theme to jekyll.
-
-So, any questions, can you contact me ([@gjuniioor](https://github.com/gjuniioor)) or open a [issue](https://github.com/gjuniioor/darcli/issuesi).
-
-## License
-
-This theme is under [GPL3](assets/LICENSE).
+[pages]: http://pages.github.com
+[fork]: https://github.com/railsr/autm-rb/fork
+[demo]: http://kirqe.github.io/autm-rb/
